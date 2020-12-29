@@ -1,0 +1,2 @@
+JMH S 11 sort.BMtest S 39 sort.generated.BMtest_benchPMS8_jmhTest S 9 benchPMS8 S 11 AverageTime E A 1 1 1 E I 2 20 E E I 2 10 E E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 11 sort.BMtest S 45 sort.generated.BMtest_benchSequential_jmhTest S 15 benchSequential S 11 AverageTime E A 1 1 1 E I 2 20 E E I 2 10 E E I 1 1 E E E E E E U 12 MILLISECONDS E E 

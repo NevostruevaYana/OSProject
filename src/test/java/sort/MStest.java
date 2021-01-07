@@ -6,20 +6,13 @@ import java.util.Random;
 import static java.lang.Integer.MIN_VALUE;
 import static org.junit.jupiter.api.Assertions.fail;
 
-public class MStest {
-
-    @Test
-    public void testSequential() {
-        final int[] array = randomArray(2000);
-        MergeSort.mergesort(array,0,array.length-1);
-        sortingCheck(array);
-    }
+public class MStest{
 
     @Test
     public void testParallel() {
         final int[] array = randomArray(2000);
         ParallelMergeSort pm = new ParallelMergeSort();
-        pm.mergeSort(array,8);
+        pm.mergeSort(array,4);
         sortingCheck(array);
     }
 

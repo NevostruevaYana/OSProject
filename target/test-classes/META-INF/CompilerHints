@@ -3,5 +3,9 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,sort/BMtest.benchPMS8
-inline,sort/BMtest.benchSequential
+inline,sort/BMtest.benchParallel0
+inline,sort/BMtest.benchParallel16
+inline,sort/BMtest.benchParallel2
+inline,sort/BMtest.benchParallel4
+inline,sort/BMtest.benchParallel8
+inline,sort/BMtest.benchParallelx10
